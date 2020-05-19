@@ -11,6 +11,9 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
+from django.core import management;
+
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -122,4 +125,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+# django will look for this user
 AUTH_USER_MODEL = 'profiles_api.UserProfile'
