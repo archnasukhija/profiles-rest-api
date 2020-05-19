@@ -1,0 +1,4 @@
+[21325.335601] irq 19: nobody cared (try booting with the "irqpoll" option)
+[21325.337583] handlers:
+[21325.338196] [<00000000d42c19d2>] e1000_intr [e1000]
+[21325.339033] Disabling IRQ #19
